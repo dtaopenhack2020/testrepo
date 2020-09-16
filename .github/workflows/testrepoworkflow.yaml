@@ -27,6 +27,7 @@ jobs:
     - name: Install Dependencies    
       run: npm ci
     - run: npm run build --if-present
+    - run: npm login --registry=https://npm.pkg.github.com/
     - run: npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}      

@@ -3,7 +3,7 @@ const port = 3000
 
 request.get('/', (req, res) => {
   
-  console.log("Handled HTPP request")
+  console.log("Succesfully Handled HTTP request")
     //res.send('HTTP endpoint using nodejs and express !')
 })
 

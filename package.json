@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/dtaopenhack2020/testrepo/issues"
   },
-  "homepage": "https://github.com/dtaopenhack2020/testrepo#readme"
+  "homepage": "https://github.com/dtaopenhack2020/testrepo#readme",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
